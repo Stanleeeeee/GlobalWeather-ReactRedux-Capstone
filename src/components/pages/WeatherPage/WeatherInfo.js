@@ -146,4 +146,4 @@ const WeatherInfo = ({ name }) => {
   );
 };
 
-export default WeatherInfo; 
+export default WeatherInfo;
