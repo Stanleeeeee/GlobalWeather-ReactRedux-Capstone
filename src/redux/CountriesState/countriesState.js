@@ -24,7 +24,7 @@ const getCountries = () => async (dispatch) => {
   });
 };
 
-const countriesReducers = (state = initialState, action) => {
+const countriesReducers = (state = initialState,action) => {
   switch (action.type) {
     case GET_COUNTRY:
       return action.payload;
