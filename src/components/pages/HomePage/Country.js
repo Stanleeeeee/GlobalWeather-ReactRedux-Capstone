@@ -25,7 +25,7 @@ const Country = ({
         </p>
         <p className="countryInfo">
           States:
-          {states.length}
+          {states.length}.isRequired
         </p>
       </div>
     </div>
