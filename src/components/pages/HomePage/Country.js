@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 const Country = ({
   name, states, iso3,
@@ -31,13 +31,6 @@ const Country = ({
       </div>
     </div>
   );
-};
-Country.propTypes = {
-  name: PropTypes.shape({
-    name: PropTypes.string,
-    states: PropTypes.string,
-    iso3: PropTypes.string,
-  }).isRequired,
 };
 
 export default Country;
