@@ -13,11 +13,11 @@ const Countries = () => {
     <div
       className="countriesPage"
       data-testid=
-        "countriesContent"
+      "countriesContent"
     >
       <div
         className=
-          "homePageCover"
+        "homePageCover"
       >
         <h1>World Weather</h1>
         <p>Choose a country</p>
