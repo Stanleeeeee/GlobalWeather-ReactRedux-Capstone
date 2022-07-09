@@ -28,4 +28,4 @@ const State = ({ name, code }) => {
   );
 };
 
-export default State; 
+export default State;

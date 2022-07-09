@@ -11,4 +11,4 @@ const rootReducer = combineReducers({
 
 const store = configureStore({ reducer: rootReducer }, applyMiddleware(thunk));
 
-export default store; 
+export default store;
