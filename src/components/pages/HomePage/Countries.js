@@ -12,12 +12,10 @@ const Countries = () => {
   return (
     <div
       className="countriesPage"
-      data-testid=
-      "countriesContent"
+      data-testid="countriesContent"
     >
       <div
-        className=
-        "homePageCover"
+        className="homePageCover"
       >
         <h1>World Weather</h1>
         <p>Choose a country</p>
