@@ -45,8 +45,9 @@ nav ul {
 
 .microphone,
 .settings,
+.search-bar,
 .backIcon {
-  color: white;
+  color: whitesmoke;
 }
 
 .navlink {

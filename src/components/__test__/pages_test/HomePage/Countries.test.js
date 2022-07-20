@@ -4,7 +4,6 @@ import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import store from '../../../../redux/configureStore';
-
 import Countries from '../../../pages/HomePage/Countries';
 
 describe('Testing Countries component', () => {
@@ -14,7 +13,7 @@ describe('Testing Countries component', () => {
     </Provider>,
   );
   test('Testing the dom for success rendering elements on Countries component', () => {
-    expect(screen.queryByTestId('countriesContent')).toBeInTheDocument();
+    expect(screen.getByTestId('countriesContent')).toBeInTheDocument();
   });
 
   test('Testing the dom for non existing elemente on the page after rendering', () => {
