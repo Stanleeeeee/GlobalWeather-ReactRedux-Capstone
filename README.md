@@ -16,9 +16,8 @@
 - Jest
 
 ## Live Demo 
-[Heroku]()
 
-[Netlify live-Demo]()
+[Live-Demo](https://stanleeeeee.github.io/GlobalWeather-ReactRedux-Capstone/)
 
 ## Getting Started
 
