@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { AiOutlineSetting } from 'react-icons/ai';
 import { IoChevronBackOutline } from 'react-icons/io5';
+import { FaSearch } from "react-icons/fa";
 
 const Navbar = () => (
   <header className="padding">
@@ -17,6 +18,7 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li className="icons">
+          <FaSearch className= 'search-bar' />
           <FaMicrophone className="microphone" />
           <AiOutlineSetting className="settings" />
         </li>
