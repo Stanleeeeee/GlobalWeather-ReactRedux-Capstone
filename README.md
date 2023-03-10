@@ -17,7 +17,8 @@
 
 ## Live Demo 
 
-[Live-Demo](https://stanleeeeee.github.io/GlobalWeather-ReactRedux-Capstone/)
+[Netlify]
+- https://deploy-preview-3--stan-weatherapp.netlify.app/
 
 ## Getting Started
 
