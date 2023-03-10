@@ -48,6 +48,7 @@ nav ul {
 .search-bar,
 .backIcon {
   color: whitesmoke;
+  
 }
 
 .navlink {
@@ -128,7 +129,7 @@ nav ul {
 }
 
 .weatherInfo {
-  color: white;
+  color: #fff;
 }
 
 .chooseState {

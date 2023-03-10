@@ -12,6 +12,7 @@ const WeatherInfo = ({ name }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getWeather(locationName));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const weatherInfo = useSelector((state) => (state.stateWeather));
   if (!weatherInfo.weather) {
