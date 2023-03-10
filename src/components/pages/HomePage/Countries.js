@@ -7,6 +7,7 @@ const Countries = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCountries());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const countries = useSelector((state) => (state.countries));
   return (
