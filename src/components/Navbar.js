@@ -4,7 +4,6 @@ import { FaMicrophone, FaSearch } from 'react-icons/fa';
 import { AiOutlineSetting } from 'react-icons/ai';
 import { IoChevronBackOutline } from 'react-icons/io5';
 
-
 const Navbar = () => (
   <header className="padding">
     <nav>
